@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sayyidazizii\\Duitku\\": "src/"
+            "Sayyidzaizii\\Duitku\\": "src/"
         }
     },
     "support": {
@@ -31,10 +31,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sayyidazizii\\Duitku\\DuitkuServiceProvider"
+                "Sayyidzaizii\\Duitku\\DuitkuServiceProvider"
             ],
             "aliases": {
-                "Duitku": "sayyidazizii\\Duitku\\DuitkuProcessor"
+                "Duitku": "Sayyidzaizii\\Duitku\\DuitkuProcessor"
             }
         }
     }
