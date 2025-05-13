@@ -1,7 +1,17 @@
 
-# Laravel Duitku Payment Gateway Integration
+# Laravel Payment Gateway Integration
 
 Integrasi gateway pembayaran **Duitku** untuk Laravel menggunakan package `sayyidazizii/payment-gateway`.
+
+ 
+**Payment Gateway List**
+
+```bash
+Duitku    : ✅
+Midtrans  : soon
+
+```
+
 
 ## 🔧 Instalasi
 
