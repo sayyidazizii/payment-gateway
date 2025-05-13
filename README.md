@@ -32,7 +32,9 @@ php artisan vendor:publish --provider="Sayyidzaizii\Duitku\DuitkuServiceProvider
 ```env
 DUITKU_MERCHANT_CODE=your_merchant_code
 DUITKU_API_KEY=your_api_key
-DUITKU_IS_SANDBOX=true
+DUITKU_CALLBACK_URL=http://localhost:8000/api/duitku/callback
+DUITKU_RETURN_URL=http://localhost:8000/return
+DUITKU_ENV=dev
 ```
 
 ---
