@@ -1,6 +1,6 @@
 <?php
 
-namespace Sayyidaizii\Duitku\Facades;
+namespace Sayyidzaizii\Duitku\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

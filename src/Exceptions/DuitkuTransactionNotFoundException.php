@@ -1,10 +1,10 @@
 <?php
 
-namespace Sayyidaizii\Duitku\Exceptions;
+namespace Sayyidzaizii\Duitku\Exceptions;
 
 /**
  * Class DuitkuTransactionNotFoundException
- * @package Sayyidaizii\Duitku\Exceptions
+ * @package Sayyidzaizii\Duitku\Exceptions
  */
 class DuitkuTransactionNotFoundException extends \Exception
 {

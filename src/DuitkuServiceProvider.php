@@ -1,6 +1,6 @@
 <?php
 
-namespace Sayyidaizii\Duitku;
+namespace Sayyidzaizii\Duitku;
 
 use \Illuminate\Support\ServiceProvider;
 

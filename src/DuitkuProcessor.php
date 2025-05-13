@@ -1,14 +1,14 @@
 <?php
 
-namespace Sayyidaizii\Duitku;
+namespace Sayyidzaizii\Duitku;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
-use Sayyidaizii\Duitku\Enums\DuitkuDefaultCode;
-use Sayyidaizii\Duitku\Exceptions\DuitkuAuthException;
-use Sayyidaizii\Duitku\Exceptions\DuitkuPaymentChannelUnavailableException;
-use Sayyidaizii\Duitku\Exceptions\DuitkuMissingParameterException;
-use Sayyidaizii\Duitku\Exceptions\DuitkuTransactionNotFoundException;
+use Sayyidzaizii\Duitku\Enums\DuitkuDefaultCode;
+use Sayyidzaizii\Duitku\Exceptions\DuitkuAuthException;
+use Sayyidzaizii\Duitku\Exceptions\DuitkuPaymentChannelUnavailableException;
+use Sayyidzaizii\Duitku\Exceptions\DuitkuMissingParameterException;
+use Sayyidzaizii\Duitku\Exceptions\DuitkuTransactionNotFoundException;
 
 class DuitkuProcessor
 {

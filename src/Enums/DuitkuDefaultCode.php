@@ -1,10 +1,10 @@
 <?php
 
-namespace Sayyidaizii\Duitku\Enums;
+namespace Sayyidzaizii\Duitku\Enums;
 
 /**
  * Class DuitkuDefaultCode
- * @package Sayyidaizii\Duitku\Enums
+ * @package Sayyidzaizii\Duitku\Enums
  */
 abstract class DuitkuDefaultCode
 {

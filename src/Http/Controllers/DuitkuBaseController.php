@@ -1,11 +1,11 @@
 <?php
 
-namespace Sayyidaizii\Duitku\Http\Controllers;
+namespace Sayyidzaizii\Duitku\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Sayyidaizii\Duitku\Enums\DuitkuCallbackCode;
+use Sayyidzaizii\Duitku\Enums\DuitkuCallbackCode;
 
 class DuitkuBaseController extends Controller
 {

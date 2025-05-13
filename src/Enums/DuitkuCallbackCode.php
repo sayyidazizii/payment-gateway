@@ -1,11 +1,11 @@
 <?php
 
-namespace Sayyidaizii\Duitku\Enums;
+namespace Sayyidzaizii\Duitku\Enums;
 
 /**
  * Class DuitkuCallbackCode
  * ref: https://docs.duitku.com/api/id/#result-code-callback
- * @package Sayyidaizii\Duitku\Enums
+ * @package Sayyidzaizii\Duitku\Enums
  */
 abstract class DuitkuCallbackCode
 {
