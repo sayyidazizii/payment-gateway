@@ -1,5 +1,5 @@
 {
-    "name": "sayyidaizii/payment-gateway",
+    "name": "sayyidzaizii/payment-gateway",
     "description": "Local payment gateway library 🇮🇩 for Laravel.",
     "keywords": ["laravel", "duitku"],
     "type": "library",
@@ -22,19 +22,19 @@
     },
     "autoload": {
         "psr-4": {
-            "Sayyidaizii\\Duitku\\": "src/"
+            "Sayyidazizii\\Duitku\\": "src/"
         }
     },
     "support": {
-        "issues": "https://github.com/sayyidaizii/payment-gateway/issues"
+        "issues": "https://github.com/sayyidazizii/payment-gateway/issues"
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Sayyidaizii\\Duitku\\DuitkuServiceProvider"
+                "Sayyidazizii\\Duitku\\DuitkuServiceProvider"
             ],
             "aliases": {
-                "Duitku": "sayyidaizii\\Duitku\\DuitkuProcessor"
+                "Duitku": "sayyidazizii\\Duitku\\DuitkuProcessor"
             }
         }
     }
