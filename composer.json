@@ -1,0 +1,41 @@
+{
+    "name": "sayyidaizii/payment-gateway",
+    "description": "A simple Duitku payment gateway library for Laravel.",
+    "keywords": ["laravel", "duitku"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sayyidazizii",
+            "email": "sayyidsyafiq234@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "^6.3 || ^7.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sayyidaizii\\Duitku\\": "src/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/sayyidaizii/payment-gateway/issues"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sayyidaizii\\Duitku\\DuitkuServiceProvider"
+            ],
+            "aliases": {
+                "Duitku": "sayyidaizii\\Duitku\\DuitkuProcessor"
+            }
+        }
+    }
+}
