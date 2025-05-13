@@ -1,6 +1,6 @@
 {
     "name": "sayyidaizii/payment-gateway",
-    "description": "A simple Duitku payment gateway library for Laravel.",
+    "description": "Local payment gateway library 🇮🇩 for Laravel.",
     "keywords": ["laravel", "duitku"],
     "type": "library",
     "license": "MIT",
